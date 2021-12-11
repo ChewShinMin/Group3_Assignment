@@ -1,0 +1,667 @@
+/* ======= Google fonts (Oswald & Didact Gothic) ======= */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* ======= Basic style ======= */
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+body {
+  font-family: '
+Franklin Gothic Book';
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.75em;
+  color: #46271A;
+  overflow-x: hidden !important;
+  background: #F3E9DD;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.banner {
+    position: relative;
+    bottom: 80px;
+    width: 100%;
+    height: 20%;
+}
+.banner img {
+    width:100%;
+    height: 100%;
+}
+
+/* ======= Navbar style ======= */
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 99;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 0px;
+  padding-bottom: 0;
+  height: 70px;
+}
+
+.navbar .icon-bar {
+  color: #b19777;
+}
+
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  left: 750px;
+  font-family: 'Cinzel';
+  font-size: 24px;
+  font-weight: 250;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 5px 5px;
+  margin-top: 45px;
+  -webkit-transition: all .1s;
+  transition: all .2s;
+}
+
+.navbar .navbar-nav .nav-link.black-color {
+  color: #46271A;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #292526;
+}
+
+.navbar .navbar-nav .active {
+  color: #46271A !important;
+}
+
+.navbar-brand {
+  padding-left: 0px;
+    position: relative;
+  margin-top: 10px;
+    bottom: 880px;
+    left: 40px;
+  width: 160px;
+  height: 100px;
+  text-align: center;
+}
+
+/*-------Menu------*/
+.hidemenu {
+    display: none;
+}
+.menu {
+    display: none;
+}
+/* =======  Content  ======= */
+.content-wrapper {
+  position: relative;
+  margin-left: -10px;
+}
+.section-padding {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+/* ======= Section style 1 ======= */
+.content1 {
+  height: 600px;  
+}
+.section-title {
+    width: 510px;
+  font-size: 48px;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 815px;
+  top: 205px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+p {
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  position: relative;
+  left: 100px;
+  top: 125px;
+  line-height: 1.75em;
+  color: #875A45;
+}
+
+.rectangle {
+  height: 50px;
+  width: 583px;
+  background-color: #E2C7B6;
+  position: relative;
+  left: 815px;
+  top: 20px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: 10px 10px 5px #EDD7BE;
+}
+
+.vl {
+  border-left: 3px solid #292526;
+  height: 250px;
+  position: relative;
+  left: 770px;
+  top: -155px;
+}
+/* ======= Section style 2 ======= */
+.content2 {
+    height: 300px;
+}
+.section-title2 {
+  font-size: 48px;
+    width: 400px;
+    text-align: right;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 3px;
+  top: 30px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+.p2 {
+    width: 500px;
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  position: relative;
+  left: 780px;
+  top: -110px;
+  line-height: 1.75em;
+  color: #875A45;
+}
+
+.p3 {
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  position: relative;
+  left: 780px;
+  top: -120px;
+  line-height: 1.75em;
+  color: #47271C;
+  font-weight: bold;  
+}
+
+.rectangle2 {
+  height: 50px;
+  width: 600px;
+  background-color: #E2C7B6;
+  position: relative;
+  right: 106px;
+  top: -275px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: 10px 10px 5px #EDD7BE;
+}
+
+.vl2 {
+  border-left: 3px solid #292526;
+  height: 250px;
+  position: relative;
+  left: 650px;
+  top: -460px;
+}
+/* ======= Section style 3 ======= */
+.content3 {
+    height: 300px;
+}
+.section-title3 {
+  font-size: 48px;
+    width: 400px;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 815px;
+  top: 100px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+.p4 {
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  position: relative;
+  left: 50px;
+  top: 0px;
+  line-height: 1.75em;
+    width: 550px;
+  color: #875A45;
+}
+
+.rectangle3 {
+  height: 50px;
+  width: 580px;
+  background-color: #E2C7B6;
+  position: relative;
+  left: 815px;
+  top: -70px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: 10px 10px 5px #EDD7BE;
+}
+
+.vl3 {
+  border-left: 3px solid #292526;
+  height: 250px;
+    width: 10px;
+  position: relative;
+  left: 770px;
+  top: -260px;
+}
+/* ======= Section style 4 ======= */
+.content4 {
+    height: 500px;
+}
+.section-title4 {
+  font-size: 48px;
+    width: 540px;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 5px;
+  top: 300px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+.p5 {
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  position: relative;
+  left: 780px;
+  top: 70px;
+    width: 500px;
+  line-height: 1.75em;
+  color: #875A45;
+}
+
+.rectangle4 {
+  height: 50px;
+  width: 657px;
+  background-color: #E2C7B6;
+  position: relative;
+  left: -107px;
+  top: -170px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: -10px 10px 5px #EDD7BE;
+}
+
+.vl4 {
+  border-left: 3px solid #292526;
+  height: 250px;
+  position: relative;
+  left: 655px;
+  top: -350px;
+}
+/* ======= Section style 5 ======= */
+.content5 {
+    height: 100px;
+}
+.section-title5 {
+  font-size: 48px;
+    width: 420px;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 815px;
+  top: 250px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+.rectangle5 {
+  height: 50px;
+  width: 580px;
+  background-color: #E2C7B6;
+  position: relative;
+  left: 815px;
+  top: 60px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: 10px 10px 5px #EDD7BE;
+}
+
+.vl5 {
+  border-left: 3px solid #292526;
+  height: 250px;
+  position: relative;
+  left: 770px;
+  top: -120px;
+}
+.button1 {
+  position: relative;
+  left: 150px;
+  top: 140px;
+  border: none;
+  /* Remove borders */
+  color: #E2C7B6;
+  /* Add a text color */
+  cursor: pointer;
+  /* Add a pointer cursor on mouse-over */
+  background-color: #875A45;
+  width: 400px;
+  height: 50px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Book';
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  padding-left: 23px;
+  opacity: 0;
+  top: 0;
+  font-size: 24px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+  color: #E2C7B6;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1:active {
+  background-color: #47271C !important;
+  box-shadow: 2px 3px #666;
+  transform: translateY(2px);
+}
+
+/* ======= Section style 6 ======= */
+.content6 {
+    height: 300px;
+}
+
+.section-title6 {
+  font-size: 48px;
+  font-family: 'Pt Serif';
+  font-weight: bold;
+  position: relative;
+  left: 245px;
+  top: 540px;
+    width: 500px;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+}
+
+.section-title span {
+  color: #47271C;
+}
+
+.p7 {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Book';
+  position: relative;
+  left: 780px;
+  top: -1280px;
+  line-height: 1.75em;
+  color: #875A45;
+}
+
+.rectangle6 {
+  height: 50px;
+  width: 650px;
+  background-color: #E2C7B6;
+  position: relative;
+  left: 10px;
+  top: 150px;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  z-index: -1;
+  box-shadow: -10px 10px 5px #EDD7BE;
+}
+
+.vl6 {
+  border-left: 3px solid #292526;
+  height: 250px;
+    width: 1px;
+  position: relative;
+  left: 750px;
+  top: -30px;
+}
+/* ======= Form Field ======= */
+input[type=text], select {
+  background-color: #EDD7BE;
+  width: 40%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position:relative;
+  left: 850px;
+  top: 340px
+}
+
+/* ======= Next Button ======= */
+.content7 {
+    height: 20px;
+}
+.button2 {
+  position: relative;
+  left: 700px;
+  top: 150px;
+  border: none;
+  /* Remove borders */
+  color: #E2C7B6;
+  /* Add a text color */
+  cursor: pointer;
+  /* Add a pointer cursor on mouse-over */
+  background-color: #875A45;
+  width: 200px;
+  height: 50px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Book';
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  padding-left: 23px;
+  opacity: 0;
+  top: 0;
+  font-size: 24px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+  color: #E2C7B6;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2:active {
+  background-color: #47271C !important;
+  box-shadow: 2px 3px #666;
+  transform: translateY(2px);
+}
+
+/* ------ Contact -----*/
+
+.content8 {
+    height: 300px;
+}
+.contact-background {
+  position: relative;
+  top: 300px;
+  max-height: 475px;
+}
+
+.content8 h4{
+  position: relative;
+  top: -40px;
+  left: 580px;
+  width:200px;
+  font-family: 'Cinzel';
+
+}
+
+.content8 p{
+    position: relative;
+    text-align: center;
+    left: 470px;
+    width: 400px;
+    top: -20px;
+    color: #47271C;
+    font-family: 'Franklin Gothic Book';
+    font-size: 24px;
+}
+
+.button4 {
+  position: relative;
+  top: 0px;
+  left: 560px;
+  align-content: center;
+  border: none;
+  /* Remove borders */
+  color: #E2C7B6;
+  /* Add a text color */
+  cursor: pointer;
+  /* Add a pointer cursor on mouse-over */
+  background-color: #875A45;
+  width: 224px;
+  height: 50px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Franklin Gothic Book;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00bb';
+  position: absolute;
+  padding-left: 23px;
+  opacity: 0;
+  top: 0;
+  font-size: 24px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button4:hover span {
+  padding-right: 25px;
+  color: #E2C7B6;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn:active {
+  color: #EDD7BE;
+  background-color: #47271C !important;
+  box-shadow: 2px 3px #666;
+  transform: translateY(2px);
+}
+
+.lines3 {
+  position: relative;
+  border-bottom: 3px solid #323232;
+  top: 760px;
+  left: 80px;
+  width: 90%;
+  padding-top: 0px;
+  z-index: 3;
+  color:#47271C; 
+}
+
+/* ------ Footer -----*/
+.footer {
+  position: relative;
+    width: 10px;
+  bottom: 0px;
+  left: 300px;
+}
