@@ -13,6 +13,7 @@
 
 
   <title>Buckeye Bed & Breakfast</title>
+
 </head>
 
 <style>
@@ -22,9 +23,22 @@
 <body>
 
   <!-- Content 1 TOP NAV -->
-   <div class="banner">
+  <div class="banner">
     <img src="images/Sweetheart-banner.png">
-          
+
+    <div class="checkincontent">
+      <label>Check In</label>
+      <label>Check Out</label>
+      <label>Guest</label>
+      <br>
+      <input type="date" id="checkindate" name="checkindate">
+      <input type="date" id="checkoutdate" name="checkoutdate">
+      <input type="number" id="guest" name="guest">
+
+    </div>
+    <div class="input[type=date], select"></div>
+    <div class="input[type=number], select"></div>
+
     <div class="v-middle caption mt-30">
       <div class="container">
         <div class="row">
@@ -34,21 +48,21 @@
       </div>
     </div>
     <div class="row">
-        <a class="navbar-brand" href="index.html">
-            <img src="images/Brown.png" alt="">
-          </a>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Brown.png" alt="">
+      </a>
       <!-- Content Goes Here in Column -->
       <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container-fluid">
 
-          
+
 
           <!-- Navbar links -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item"><a class="nav-link" href="#">ROOMS</a></li>
+              <li class="nav-item"><a class="nav-link" href="Room.html">ROOMS</a></li>
               <li class="nav-item"><a class="nav-link" href="comparison.html">COMPARISON</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">OFFERS</a></li>
+              <li class="nav-item"><a class="nav-link" href="offer.html">OFFERS</a></li>
               <li class="nav-item"><a class="nav-link" href="explore.html">EXPLORE</a></li>
               <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
 
@@ -65,288 +79,306 @@
         </div>
       </nav>
     </div>
+
   </div>
 
-  
-    <!-- Menu Mobile -->
-<div class="hidemenu">
-   <nav class="menu">
-     <div class="hamburger-menu" href="#">
-       <div class="m-lines lines-1"></div>
-       <div class="m-lines lines-2"></div>
-       <div class="m-lines lines-3"></div>
+
+
+
+
+  <!-- Menu Mobile -->
+  <div class="hidemenu">
+    <nav class="menu">
+      <div class="hamburger-menu" href="#">
+        <div class="m-lines lines-1"></div>
+        <div class="m-lines lines-2"></div>
+        <div class="m-lines lines-3"></div>
       </div>
-            <ul class="menu-list">
-                <img class="menufooter" src="images/Menu.png">
-         <li class="menu-item">
-          <a href="#" class="menu-link">Rooms</a>
-         </li>
-         <li class="menu-item">
-          <a href="#" class="menu-link">Comparison</a>
-         </li>
-         <li class="menu-item">
-          <a href="#" class="menu-link">Offers</a>
-         </li>
-         <li class="menu-item">
+      <ul class="menu-list">
+        <img class="menufooter" src="images/Menu.png">
+        <li class="menu-item">
+          <a href="Room.html" class="menu-link">Rooms</a>
+        </li>
+        <li class="menu-item">
+          <a href="comparison.html" class="menu-link">Comparison</a>
+        </li>
+        <li class="menu-item">
+          <a href="offer.html" class="menu-link">Offers</a>
+        </li>
+        <li class="menu-item">
           <a href="explore.html" class="menu-link">Explore</a>
-         </li>
-         <li class="menu-item">
+        </li>
+        <li class="menu-item">
           <a href="#" class="menu-link">Contact Us</a>
-         </li>
-        </ul>
-       
+        </li>
+      </ul>
+
     </nav>
-    </div>
-       
+  </div>
+
   <!-- NAV BAR JS SCRIPT -->
 
- <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 
   <!--  Menu Mobile End-->
-  <div class="roomdetailsbanner">  
-      <img src="images/Roomsdetails.png" width="750px;" height="60px;" ></div>  
-    
-    <!-- Content -->
+
+  <div class="container">
+    <div class="row">
+      <div class="roomdetailsbanner">
+        <img src="images/Roomsdetails.png" width="750px;" height="60px;">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Content -->
   <div class="content-wrapper">
-      
- <!-- Room Information -->
+
+    <!-- Room Information -->
     <section id="room information" class="room information section-padding" data-scroll-index="1">
-        <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="content1">
 
 
-              
+
               <h1 class="section-title"><span>Room Information</span></h1>
               <p>1 Bedroom ｜ 1 Living Room
-                </p>
-                <p>1 Bathroom | 1 King Size Bed</p>
-                <body>
+              </p>
+              <p>1 Bathroom | 1 King Size Bed</p>
+
+              <body>
                 <div class="rectangle"></div>
-                </body>
-                 <body>
-                 <div class="vl"></div>
-                </body>
-        
-              </div>
+              </body>
+
+              <body>
+                <div class="vl"></div>
+              </body>
+
             </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-       <!-- Price Details -->
-<section id="rooms" class="price section-padding2" data-scroll-index="2">
-    
-          <div class="container">
+    <!-- Price Details -->
+    <section id="rooms" class="price section-padding2" data-scroll-index="2">
+
+      <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-3 animate-box" data-animate-effect="fadeInUp">
             <div class="content2">
-              
+
               <h1 class="section-title2"><span>Price Details</span></h1>
-                
+
               <p class="p2">Room Price (1 Room , 1 Night) : RM500.00
-                </p>
-                <p class="p2">Cleaning Fees : RM60.00</p>
-                <p class="p2">Bokking Fees : Free</p>
-                <p class="p3">Total Price : RM560.00</p>
-                
-                <div class="rectangle2"></div>
-             
-                 
-                 <div class="vl2"></div>
-                
-        
-              </div>
+              </p>
+              <p class="p2">Cleaning Fees : RM60.00</p>
+              <p class="p2">Bokking Fees : Free</p>
+              <p class="p3">Total Price : RM560.00</p>
+
+              <div class="rectangle2"></div>
+
+
+              <div class="vl2"></div>
+
+
             </div>
           </div>
-    </div>
-              </section>
-    
-       <!-- Deposit Policy -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Deposit Policy -->
     <section id="deposit policy" class="deposit policy section-padding" data-scroll-index="3">
-        <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-3 animate-box" data-animate-effect="fadeInUp">
-              
+
             <div class="content3">
-              
-               <h1 class="section-title3"><span>Deposit Policy</span></h1>
-              <p class="p4">We will process a deposit of at least one night’s stay — or 50% for stays of two or more nights.
-                </p>
-               
-                <div class="rectangle3"></div>
-              
-               
-                 <div class="vl3"></div>
-                
-        
-              </div>
+
+              <h1 class="section-title3"><span>Deposit Policy</span></h1>
+              <p class="p4">We will process a deposit of at least one night’s stay — or 50% for stays of two or more
+                nights.
+              </p>
+
+              <div class="rectangle3"></div>
+
+
+              <div class="vl3"></div>
+
+
             </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
-      
-      <!-- Cancellation Policy -->
+
+    <!-- Cancellation Policy -->
     <section id="cancellation policy" class="cancellation policy section-padding" data-scroll-index="4">
 
-           <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-3 animate-box" data-animate-effect="fadeInUp">
-              <div class="content4">
+            <div class="content4">
 
 
               <h1 class="section-title4"><span>Cancellation Policy</span></h1>
-              <p class="p5">With a notice of no less than 14 days, we will be pleased to refund your deposit less a processing fee of RM30. For reservations cancelled less than 14 days prior, deposit will be refunded less fee provided the room is rebooked. You are responsible for the entire stay if you fail to or arrive after scheduled dates. Major holidays and special events require a 30-day notification.
-                </p>
-            
-                <div class="rectangle4"></div>
-            
-                 <div class="vl4"></div>
-                
-</div>
-              </div>
-               </div>
+              <p class="p5">With a notice of no less than 14 days, we will be pleased to refund your deposit less a
+                processing fee of RM30. For reservations cancelled less than 14 days prior, deposit will be refunded
+                less fee provided the room is rebooked. You are responsible for the entire stay if you fail to or arrive
+                after scheduled dates. Major holidays and special events require a 30-day notification.
+              </p>
+
+              <div class="rectangle4"></div>
+
+              <div class="vl4"></div>
+
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-      <!-- Room Upgrade Packages Deals -->
+    <!-- Room Upgrade Packages Deals -->
     <section id="room upgrade packages deals" class="room upgrade packages deals section-padding" data-scroll-index="5">
 
-           <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-3 animate-box" data-animate-effect="fadeInUp">
             <div class="content5">
 
 
-              
-                <h1 class="section-title5"><span>Room Upgrade Packages Deals</span></h1>
-                <a href="#"><button class="btn button1"><span>Click Here To Know More</span></button></a>
-                        <div class="rectangle5"></div>
-          
-          
-                 <div class="vl5"></div>
-          
-        
-              </div>
-            </div>
-               </div>
-        </div>
-    </section>
-      
-      <!-- Contact Details -->
-    <section id="contact details" class="contact details section-padding" data-scroll-index="6">
 
+              <h1 class="section-title5"><span>Room Upgrade Packages Deals</span></h1>
+              <a href="#"><button class="btn button1"><span>Click Here To Know More</span></button></a>
+              <div class="rectangle5"></div>
+
+
+              <div class="vl5"></div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section id="contact details" class="contact details section-padding" data-scroll-index="6">
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
             <div class="content6">
 
-
-              
               <h1 class="section-title6"><span>Contact Details</span></h1>
-              <br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br>
-                
-                <div class="input[type=text], select"></div>    
-                <div class="rectangle6"></div>
-         
-       
-                 <div class="vl6"></div>
 
-        
-              </div>
+              <!-- ONCE USER SUBMIT IT JUMP TO booking 5 PAGE -->
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
+              <iframe name="hidden_frame" id="hidden_frame" style="display:none;" onload="if(submitted) {window.location='roomsbooking5_sweetheart.html';}"></iframe>
+
+              <!-- FORM HERE -->
+              <form novalidate action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeH6mqPCYd9K5CG-oRP4SkLq0U5_D_H-2zKjDxdEABv4ulm2Q/formResponse" method="post" target="hidden_frame" onsubmit="submitted=true;">
+                <div class="container">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.2100167107" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email address">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.807656262" id="exampleInputName" aria-describedby="emailHelp" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.964854775" id="exampleInputPhone" aria-describedby="emailHelp" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.1781453900" id="exampleInputCountry" aria-describedby="emailHelp" placeholder="Country / Region of Residence">
+                  </div>
+                </div>
+                <div class="input[type=text], select"></div>
+                <div class="rectangle6"></div>
+
+
+                <div class="vl6"></div>
+                </form>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
-      
-      <!-- Next Button -->
+
+    <!-- Next Button -->
     <section id="next button" class="next button section-padding" data-scroll-index="7">
 
-          <div class="col-md-12">
-            <div class="content7">
-
-      <a href="#"><button class="btn button2"><span>Next</span></button></a>
-                      </div>
+      <div class="col-md-12">
+        <div class="content7">
+          <div class="container">
+            <div class="row">
+              <a href="roomsbooking5_sweetheart.html"><button class="btn button2"><span>Next</span></button></a>
+            </div>
+          </div>
         </div>
- </section>
-              
-          <!-- Content 8 Contact -->
+      </div>
+    </section>
+    
+
+    <!-- Form Filed Validation -->
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (() => {
+        'use strict';
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation');
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach((form) => {
+          form.addEventListener('submit', (event) => {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      })();
+    </script>
+
+    <!-- Content 8 Contact -->
     <div class="lines3"></div>
 
     <section id="contact" class="contact section-padding2" data-scroll-index="8">
       <img class="contact-background" src="images/Contact.png">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
 
-              <div class="content8">
-                <h4 style="text-align: center">CONTACT US</h4>
-                <p style="text-align: center">If you have any questions, please feel free to contact us.</p>
+            <div class="content8">
+              <h4 style="text-align: center">CONTACT US</h4>
+              <p style="text-align: center">If you have any questions, please feel free to contact us.</p>
 
-                <a href="#"><button class="btn button4"><span>Contact Us</span></button></a>
-              </div>
+              <a href="#"><button class="btn button4"><span>Contact Us</span></button></a>
             </div>
-
           </div>
+
         </div>
+      </div>
     </section>
-                  
-<!-- Footer -->
-  <section id="footer" class="footer" data-scroll-index="9">
-      <div class="footer"><img src="images/Active.png" style="max-height: 200px">
-            </div>
-      </section>
-      
-      <!-- Check In Banner -->
-      <section id="check in banner" class="check in banner" data-scroll-index="9">
-        
-        <div class="checkinbanner">
-        <img src="images/CheckIn_Banner.png" style="max-height: 200px">
-        
-      
-      
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row">
+        <section id="footer" class="footer" data-scroll-index="9">
+          <div class="footer"><img src="images/Active.png">
+          </div>
+        </section>
       </div>
-          </section>
-         <!-- Menu Mobile -->
-<div class="hidemenu">
-   <nav class="menu">
-     <div class="hamburger-menu" href="#">
-       <div class="m-lines lines-1"></div>
-       <div class="m-lines lines-2"></div>
-       <div class="m-lines lines-3"></div>
-      </div>
-            <ul class="menu-list">
-                <img class="menufooter" src="images/Menu.png">
-         <li class="menu-item">
-          <a href="#" class="menu-link">Rooms</a>
-         </li>
-         <li class="menu-item">
-          <a href="comparison.html" class="menu-link">Comparison</a>
-         </li>
-         <li class="menu-item">
-          <a href="#" class="menu-link">Offers</a>
-         </li>
-         <li class="menu-item">
-          <a href="explore.html" class="menu-link">Explore</a>
-         </li>
-         <li class="menu-item">
-          <a href="#" class="menu-link">Contact Us</a>
-         </li>
-        </ul>
-       
-    </nav>
     </div>
-       
-  <!-- NAV BAR JS SCRIPT -->
 
- <script src="js/script.js"></script>
+    <!-- Check In Banner -->
+  </div>
+</body>
 
-  <!--  Menu Mobile End-->
-
-     
-    
-    </div>
-    
-    </body>
 </html>

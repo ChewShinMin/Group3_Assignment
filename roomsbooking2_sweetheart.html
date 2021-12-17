@@ -29,6 +29,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
+              <div class="checkin-details">
+              <p>Dec 6, 2021  ｜  Dec 8, 2021  ｜  2 Guest
+              </p></div>
           </div>
         </div>
       </div>
@@ -236,40 +239,83 @@
       
       <!-- Contact Details -->
     <section id="contact details" class="contact details section-padding" data-scroll-index="6">
-
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
             <div class="content6">
 
-
-              
               <h1 class="section-title6"><span>Contact Details</span></h1>
-              <br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="text" id="fname" name="fname"><br>
-                
-                <div class="input[type=text], select"></div>    
-                <div class="rectangle6"></div>
-         
-       
-                 <div class="vl6"></div>
 
-        
-              </div>
+              <!-- ONCE USER SUBMIT IT JUMP TO booking 5 PAGE -->
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
+              <iframe name="hidden_frame" id="hidden_frame" style="display:none;" onload="if(submitted) {window.location='roomsbooking5_sweetheart.html';}"></iframe>
+
+              <!-- FORM HERE -->
+              <form novalidate action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeH6mqPCYd9K5CG-oRP4SkLq0U5_D_H-2zKjDxdEABv4ulm2Q/formResponse" method="post" target="hidden_frame" onsubmit="submitted=true;">
+                <div class="container">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.2100167107" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email address">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.807656262" id="exampleInputName" aria-describedby="emailHelp" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.964854775" id="exampleInputPhone" aria-describedby="emailHelp" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.1781453900" id="exampleInputCountry" aria-describedby="emailHelp" placeholder="Country / Region of Residence">
+                  </div>
+                </div>
+                <div class="input[type=text], select"></div>
+                <div class="rectangle6"></div>
+
+
+                <div class="vl6"></div>
+                </form>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
-      
-      <!-- Next Button -->
+
+    <!-- Next Button -->
     <section id="next button" class="next button section-padding" data-scroll-index="7">
 
-          <div class="col-md-12">
-            <div class="content7">
-
-      <a href="#"><button class="btn button2"><span>Next</span></button></a>
-                      </div>
+      <div class="col-md-12">
+        <div class="content7">
+          <div class="container">
+            <div class="row">
+              <a href="roomsbooking5_sweetheart.html"><button class="btn button2"><span>Next</span></button></a>
+            </div>
+          </div>
         </div>
- </section>
+      </div>
+    </section>
+    
+
+    <!-- Form Filed Validation -->
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (() => {
+        'use strict';
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation');
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach((form) => {
+          form.addEventListener('submit', (event) => {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      })();
+    </script>
               
           <!-- Content 8 Contact -->
     <div class="lines3"></div>
@@ -298,16 +344,12 @@
             </div>
       </section>
       
-      <!-- Check In Banner -->
-      <section id="check in banner" class="check in banner" data-scroll-index="9">
-        
-        <div class="checkinbanner">
-        <img src="images/CheckIn_Banner.png" style="max-height: 200px">
+
         
       
       
       </div>
-          </section>
+
          <!-- Menu Mobile -->
 <div class="hidemenu">
    <nav class="menu">
